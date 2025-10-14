@@ -22,7 +22,6 @@ This project focuses on incorporating **correlation-based loss functions** and *
 |------|------|----|
 | Project Member | **Drishti Golchha** | PES2UG23CS185 |
 | Project Member | **G S S Surya Prakash** | PES2UG23CS185 |
-| Mentor / Instructor | *[Add instructor name here]* | *[Optional]* |
 
 ---
 
