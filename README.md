@@ -58,7 +58,6 @@ Follow these instructions to install and run the project on **Google Colab** or 
 | Metric | Description |
 |---------|--------------|
 | **FID (Fréchet Inception Distance)** | Measures similarity between real and generated distributions. Lower is better. |
-| **Inception Score (IS)** | Evaluates diversity and quality of generated samples. Higher is better. |
 
 ---
 
