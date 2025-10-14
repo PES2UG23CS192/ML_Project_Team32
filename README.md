@@ -16,15 +16,6 @@ This project focuses on incorporating **correlation-based loss functions** and *
 
 ---
 
-## 👨‍💻 Team Information
-
-| Role | Name | ID |
-|------|------|----|
-| Project Member | **Drishti Golchha** | PES2UG23CS185 |
-| Project Member | **G S S Surya Prakash** | PES2UG23CS185 |
-
----
-
 ## 🧩 Description
 
 The project involves training GAN models on **image or synthetic datasets** (e.g., CIFAR-10, CelebA) and introducing correlation-aware components to the generator or discriminator.  
@@ -61,14 +52,6 @@ Follow these instructions to install and run the project on **Google Colab** or 
    - Compute and display **FID** and **Inception Score**
 
 ---
-
-### 🔹 Option 2: Run Locally (Optional)
-
-#### Step 1: Clone the Repository
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
 
 #### Step 2: Create a Virtual Environment
 ```bash
@@ -121,4 +104,4 @@ You can use any of the following datasets:
 ## 👩‍💻 Authors / Collaborators
 
 - **Drishti Golchha (PES2UG23CS185)**  
-- **G S S Surya Prakash (PES2UG23CS185)**  
+- **G S S Surya Prakash (PES2UG23CS185)** 
