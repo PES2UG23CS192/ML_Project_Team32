@@ -16,6 +16,15 @@ This project focuses on incorporating **correlation-based loss functions** and *
 
 ---
 
+## 👨‍💻 Team Information
+
+| Role | Name | ID |
+|------|------|----|
+| Project Member | **Drishti Golchha** | PES2UG23CS185 |
+| Project Member | **G S S Surya Prakash** | PES2UG23CS185 |
+
+---
+
 ## 🧩 Description
 
 The project involves training GAN models on **image or synthetic datasets** (e.g., CIFAR-10, CelebA) and introducing correlation-aware components to the generator or discriminator.  
@@ -39,7 +48,7 @@ The performance is measured using **torch-fidelity** metrics such as FID and IS.
 
 Follow these instructions to install and run the project on **Google Colab** or **locally**.
 
-### 🔹 Option 1: Run on Google Colab (Recommended)
+### Run on Google Colab
 1. Open [Google Colab](https://colab.research.google.com/).
 2. Upload the notebook file:  
    **`ML_Project_192_185.ipynb`**
@@ -50,29 +59,6 @@ Follow these instructions to install and run the project on **Google Colab** or 
    - Load the dataset (CIFAR-10 or CelebA)
    - Train the GAN model
    - Compute and display **FID** and **Inception Score**
-
----
-
-#### Step 2: Create a Virtual Environment
-```bash
-python -m venv gan-env
-source gan-env/bin/activate  # On Windows use: gan-env\Scripts\activate
-```
-
-#### Step 3: Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-If you don’t have a `requirements.txt`, install manually:
-```bash
-pip install torch torchvision numpy matplotlib torch-fidelity
-```
-
-#### Step 4: Run the Notebook
-```bash
-jupyter notebook ML_Project_192_185.ipynb
-```
 
 ---
 
@@ -104,4 +90,4 @@ You can use any of the following datasets:
 ## 👩‍💻 Authors / Collaborators
 
 - **Drishti Golchha (PES2UG23CS185)**  
-- **G S S Surya Prakash (PES2UG23CS185)** 
+- **G S S Surya Prakash (PES2UG23CS192)**  
