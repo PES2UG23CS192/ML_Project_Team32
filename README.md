@@ -31,7 +31,7 @@ The performance is measured using **torch-fidelity** metrics such as FID and IS.
 - **NumPy**
 - **Matplotlib**
 - **Torch-Fidelity** (for FID and IS computation)
-- **Google Colab GPU Runtime**
+- **Google Colab GPU Runtime (Preferably T4)**
 
 ---
 
