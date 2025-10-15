@@ -1,4 +1,4 @@
-# Measuring and Incorporating Correlations in Generative Adversarial Networks
+# Team 32: Measuring and Incorporating Correlations in Generative Adversarial Networks
 
 This repository contains the implementation for the project **“Measuring and Incorporating Correlations in Generative Adversarial Networks (GANs)”**, which investigates advanced techniques to improve GAN performance by explicitly modeling **feature correlations** during image generation.
 
