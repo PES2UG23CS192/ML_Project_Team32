@@ -12,14 +12,14 @@ This project focuses on incorporating **correlation-based loss functions** and *
 ### Key Objectives:
 - Model correlations between latent space and generated features.  
 - Implement correlation-based loss functions.  
-- Evaluate using **FID (Fréchet Inception Distance)** and **Inception Score (IS)**.
+- Evaluate using **FID (Fréchet Inception Distance)**.
 
 ---
 
 ## 🧩 Description
 
-The project involves training GAN models on **image or synthetic datasets** (e.g., CIFAR-10, CelebA) and introducing correlation-aware components to the generator or discriminator.  
-The performance is measured using **torch-fidelity** metrics such as FID and IS.
+The project involves training GAN models on **images** (e.g., CIFAR-10, CelebA) and introducing correlation-aware components to the generator or discriminator.  
+The performance is measured using **torch-fidelity** metrics such as FID.
 
 ---
 
@@ -37,19 +37,19 @@ The performance is measured using **torch-fidelity** metrics such as FID and IS.
 
 ## 🚀 Step-by-Step Installation and Execution Guide
 
-Follow these instructions to install and run the project on **Google Colab** or **locally**.
+Instructions to follow to install and run the project on **Google Colab** or **locally**.
 
 ### Run on Google Colab
 1. Open [Google Colab](https://colab.research.google.com/).
 2. Upload the notebook file:  
    **`ML_Project_192_185.ipynb`**
 3. Go to:  
-   `Runtime → Change runtime type → Hardware accelerator → GPU`
+   `Runtime → Change runtime type → Hardware accelerator → GPU(T4)`
 4. Run all cells sequentially using `Runtime → Run all`.
 5. The notebook will automatically:
-   - Load the dataset (CIFAR-10 or CelebA)
+   - Load the dataset (CIFAR-10)
    - Train the GAN model
-   - Compute and display **FID** and **Inception Score**
+   - Compute and display **FID**
 
 ---
 
@@ -63,20 +63,11 @@ Follow these instructions to install and run the project on **Google Colab** or 
 
 ## 📊 Datasets
 
-You can use any of the following datasets:
+Datasets used:
 - **CIFAR-10**
-- **CelebA**
-- Synthetic or custom datasets (optional)
 
 ---
 
-## 🔮 Future Work
-
-- Integrate **attention mechanisms** to capture feature dependencies.  
-- Extend the approach to **conditional GANs (cGANs)** and **StyleGANs**.  
-- Explore **hybrid correlation-based discriminators** for improved feedback.
-
----
 ## 👩‍💻 Authors / Collaborators
 
 - **Drishti Golchha (PES2UG23CS185)**  
